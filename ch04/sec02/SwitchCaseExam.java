@@ -2,7 +2,8 @@ package ch04.sec02;
 
 public class SwitchCaseExam {
     public static void main(String[] args) {
-        int score = 100;
+        int score = (int)(Math.random()*101) + 0;
+        System.out.println(score);
 
         switch(score / 10) {
             case 10:
